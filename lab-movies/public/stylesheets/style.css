@@ -1,13 +1,53 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+a,
+button {
+  color: #00b7ff;
+  border: none;
+  text-decoration: none;
+  background: none;
+  margin-right: 10px;
+  font-size: 1em;
+  padding: 0;
+}
+
+a:hover,
+button:hover {
+  text-decoration: underline;
 }
 
 .celeb {
   display: flex;
   margin: 5px 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+li a {
+  color:  #005070;
+}
+
+.celeb a, .celeb button {
+  background: #00b7ff;
+  color: white;
+  border-radius: 5px;
+  padding: 4px 10px;
+  margin: 5px;
+}
+
+
+.home-link {
+  margin-right: 5px;
+  padding-right: 5px;
+  border-right: 1px solid gray;
 }
